@@ -1,16 +1,20 @@
-## Hi there 👋
+# Hi, I'm Vishnu
 
-<!--
-**vishsant/vishsant** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Linux kernel developer. Building tools and exploring ideas.
 
-Here are some ideas to get you started:
+## 📝 Writing
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📚 Reading
+
+## 🔧 Projects
+
+## 🤝 Contributions
+
+### OpenBMC (Linux Foundation project)
+
+Open source firmware for baseboard management controllers. Provides platform management and sensor monitoring for servers.
+
+- [libpldm](https://github.com/openbmc/libpldm/commit/48b0f80) — encode_get_pdr_repository_info_req() in PLDM platform
+- [libpldm](https://github.com/openbmc/libpldm/commit/ec19cbc) — decode_set_tid_req() in PLDM base
+
+## 💡 Ideas
