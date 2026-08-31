@@ -19,4 +19,10 @@ Open source firmware for baseboard management controllers. Provides platform man
 - [libpldm](https://github.com/openbmc/libpldm/commit/48b0f80) — encode_get_pdr_repository_info_req() in PLDM platform
 - [libpldm](https://github.com/openbmc/libpldm/commit/ec19cbc) — decode_set_tid_req() in PLDM base
 
+### linux-msm
+
+Qualcomm Snapdragon platform support for the Linux kernel.
+
+- [rpmsgexport](https://github.com/linux-msm/rpmsgexport/commit/ad7cc96) — replaced Makefile with meson to fix missing GNU_HASH and embedded build paths in packaged builds
+
 ## 💡 Ideas
