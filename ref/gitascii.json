@@ -1,0 +1,129 @@
+{
+  "widgets": [
+    {
+      "instanceId": "widget_1789271478229",
+      "widgetId": "bio",
+      "name": "Bio Widget",
+      "position": {
+        "x": 8,
+        "y": 420
+      },
+      "size": {
+        "width": 784,
+        "height": 208
+      },
+      "config": {
+        "customBlog": "https://vishsant.github.io/",
+        "customBio": "A fellow Linux kernel developer with a habit of looking beneath the surface. Computers \nare one obsession, but hardly the only one. I'm fascinated by the hidden machinery behind things — how cities work, how languages shape thought, how ideas travel through books and change the person reading them. I read widely, build and break things for fun, and accumulate curiosities faster than I can exhaust them.",
+        "textAlign": "left",
+        "customLocation": ""
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "instanceId": "widget_1789272478059",
+      "widgetId": "premium-ascii-coding-velocity",
+      "name": "Premium-ascii-coding-velocity Widget",
+      "position": {
+        "x": 0,
+        "y": 678
+      },
+      "size": {
+        "width": 400,
+        "height": 160
+      },
+      "config": {
+        "lockAspectRatio": true,
+        "transparentBackground": true,
+        "backgroundColor": "transparent",
+        "accentColor": "#3fb950",
+        "secondaryColor": "#39c5cf",
+        "borderColor": "#30363d"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 3
+    },
+    {
+      "instanceId": "widget_1789272559108",
+      "widgetId": "premium-ascii-dna",
+      "name": "Premium-ascii-dna Widget",
+      "position": {
+        "x": 384,
+        "y": 636
+      },
+      "size": {
+        "width": 400,
+        "height": 230
+      },
+      "config": {
+        "lockAspectRatio": true,
+        "transparentBackground": true,
+        "backgroundColor": "transparent",
+        "accentColor": "#3fb950",
+        "secondaryColor": "#39c5cf",
+        "borderColor": "#30363d"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 5
+    },
+    {
+      "instanceId": "widget_1789272649883",
+      "widgetId": "contribution-snake",
+      "name": "Contribution-snake Widget",
+      "position": {
+        "x": 0,
+        "y": 874
+      },
+      "size": {
+        "width": 800,
+        "height": 250
+      },
+      "config": {},
+      "locked": false,
+      "visible": true,
+      "zIndex": 9
+    },
+    {
+      "instanceId": "widget_1789272777695",
+      "widgetId": "surveillance-header",
+      "name": "Surveillance-header Widget",
+      "position": {
+        "x": 8,
+        "y": 9
+      },
+      "size": {
+        "width": 780,
+        "height": 417
+      },
+      "config": {
+        "accentColor": "#e6fbfb",
+        "customTitle": "Surveillance Header",
+        "showTitle": true,
+        "displayName": "Vishnu Santhosh",
+        "modeTag": "RETRO CRT",
+        "customBio": "",
+        "secondaryColor": "#8a8a8a",
+        "ledColor": "#ffffff"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 7
+    }
+  ],
+  "globalStyles": {
+    "backgroundColor": "#060606",
+    "textColor": "#e5e5e5",
+    "accentColor": "#c5ff4a",
+    "borderColor": "#252525",
+    "fontFamily": "'JetBrains Mono', monospace",
+    "borderRadius": 0,
+    "padding": 24,
+    "themeMode": "dark",
+    "templateStyle": "native"
+  },
+  "templateId": "terminal"
+}
