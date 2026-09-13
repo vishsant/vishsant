@@ -6,8 +6,6 @@ Linux kernel developer. Building tools and exploring ideas.
 
 - [Writing](https://vishsant.github.io/post/) — essays and notes on ideas, tools, and things I'm learning
 
-## 📚 Reading
-
 ## 🔧 Projects
 
 - [skills](https://github.com/vishsant/skills) — agent skills I use daily, each proven on a real problem before it lands
