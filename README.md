@@ -9,6 +9,7 @@ Linux kernel developer. Building tools and exploring ideas.
 ## 🔧 Projects
 
 - [skills](https://github.com/vishsant/skills) — agent skills I use daily, each proven on a real problem before it lands
+- [Digital Garden](https://vishsant.github.io/digital-garden) — notes on ideas, tools, and things I'm learning
 
 ## 🤝 Contributions
 
