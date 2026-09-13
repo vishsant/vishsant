@@ -114,18 +114,9 @@ def render(data):
     body += text(400, 122, '> ' + data['name'], 39, FG, 'text-anchor="middle" font-weight="bold"')
     body += text(400, 147, f'[ {data["name"]} // @{data["login"]} ]', 10, MUTED, 'text-anchor="middle"')
     body += text(400, 170, 'Linux Kernel Developer // Terminal Purist', 12, FG, 'text-anchor="middle"')
-    portrait = (ROOT / 'assets/portrait.svg').read_text()
-    body += f'<svg x="257.5" y="195" width="285" height="180" viewBox="0 0 160 160">{portrait}</svg>'
-    body += rect(257.5, 195, 285, 180, 'none', '#8a8a8a')
-    for i, color in enumerate([FG, '#e6dc57', GREEN, CYAN, '#b75aff', '#ff5c5c']):
-        body += rect(258.5+i*47, 196, 47, 3, color, color)
-    body += text(267.5, 211, 'CH 03 · CAM-01', 8) + text(500.5, 211, 'LIVE', 8, '#ff5c5c')
-    for y in range(215, 374, 3):
-        body += f'<path d="M258.5 {y}H541.5" stroke="#060606" opacity=".35"/>'
-    body += text(267.5, 367, 'FEED: GITHUB AVATAR / STATIC CAPTURE', 8)
-    body += text(400, 407, '“Once I told the computer to do something and it did it exactly how I told it to.”', 12, FG, 'text-anchor="middle"')
-    body += text(24, 465, 'TELEMETRY SYNC: ' + data['updated'], 10, MUTED)
-    header = svg(800, 482, 'Surveillance terminal profile — ' + data['name'], body)
+    body += text(400, 212, '“Once I told the computer to do something and it did it exactly how I told it to.”', 12, FG, 'text-anchor="middle"')
+    body += text(24, 255, 'TELEMETRY SYNC: ' + data['updated'], 10, MUTED)
+    header = svg(800, 272, 'Surveillance terminal profile — ' + data['name'], body)
 
     lines = textwrap.wrap(' '.join(bio_config['customBio'].split()), width=91)
     body = text(24, 32, '[ BIOGRAPHY ]', 11, MUTED, 'letter-spacing="2"')
