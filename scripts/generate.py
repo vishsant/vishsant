@@ -123,8 +123,7 @@ def render(data):
     for y in range(215, 374, 3):
         body += f'<path d="M258.5 {y}H541.5" stroke="#060606" opacity=".35"/>'
     body += text(267.5, 367, 'FEED: GITHUB AVATAR / STATIC CAPTURE', 8)
-    body += text(400, 407, '“Once I told the computer to do something', 12, FG, 'text-anchor="middle"')
-    body += text(400, 428, 'and it did it exactly how I told it to.”', 12, FG, 'text-anchor="middle"')
+    body += text(400, 407, '“Once I told the computer to do something and it did it exactly how I told it to.”', 12, FG, 'text-anchor="middle"')
     body += text(24, 465, 'TELEMETRY SYNC: ' + data['updated'], 10, MUTED)
     header = svg(800, 482, 'Surveillance terminal profile — ' + data['name'], body)
 
