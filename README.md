@@ -4,6 +4,8 @@ Linux kernel developer. Building tools and exploring ideas.
 
 ## 📝 Writing
 
+- [Writing](https://vishsant.github.io/post/) — essays and notes on ideas, tools, and things I'm learning
+
 ## 📚 Reading
 
 ## 🔧 Projects
