@@ -112,7 +112,7 @@ def render(data):
     body += text(400, 67, '[ SYSTEM :: TERMINAL PROFILE :: RETRO CRT ]', 10, FG, 'text-anchor="middle" letter-spacing="2"')
     body += text(402, 124, '> ' + data['name'], 39, '#754b59', 'text-anchor="middle" font-weight="bold"')
     body += text(400, 122, '> ' + data['name'], 39, FG, 'text-anchor="middle" font-weight="bold"')
-    body += text(400, 147, f'[ {data["name"]} // @{data["login"]} // Developer ]', 10, MUTED, 'text-anchor="middle"')
+    body += text(400, 147, f'[ {data["name"]} // @{data["login"]} ]', 10, MUTED, 'text-anchor="middle"')
     body += text(400, 170, 'Linux Kernel Developer // Terminal Purist', 12, FG, 'text-anchor="middle"')
     portrait = (ROOT / 'assets/portrait.svg').read_text()
     body += f'<svg x="257.5" y="195" width="285" height="180" viewBox="0 0 160 160">{portrait}</svg>'
@@ -130,7 +130,9 @@ def render(data):
     lines = textwrap.wrap(' '.join(bio_config['customBio'].split()), width=91)
     body = text(24, 32, '[ BIOGRAPHY ]', 11, MUTED, 'letter-spacing="2"')
     for i, line in enumerate(lines):
-        body += text(24, 63+i*21, line, 13)
+        # Justify full lines between equal 24px margins; keep the final line natural.
+        extra = 'textLength="752" lengthAdjust="spacing"' if i < len(lines)-1 else ''
+        body += text(24, 63+i*21, line, 13, extra=extra)
     body += text(24, 88+len(lines)*21, bio_config['customBlog'], 12, '#c5ff4a')
     bio = svg(800, 110+len(lines)*21, 'Biography', body)
 
