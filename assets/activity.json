@@ -1,9 +1,9 @@
 {
   "login": "vishsant",
   "name": "Vishnu Santhosh",
-  "updated": "2026-11-07 11:46 UTC",
-  "from": "2026-10-09",
-  "to": "2026-11-07",
+  "updated": "2026-11-08 11:58 UTC",
+  "from": "2026-10-10",
+  "to": "2026-11-08",
   "commits": 1,
   "prs": 0,
   "issues": 0,
@@ -11,45 +11,6 @@
   "repositories": 1,
   "active_days": 1,
   "calendar": [
-    {
-      "contributionDays": [
-        {
-          "date": "2025-11-02",
-          "contributionCount": 0,
-          "color": "#ebedf0"
-        },
-        {
-          "date": "2025-11-03",
-          "contributionCount": 0,
-          "color": "#ebedf0"
-        },
-        {
-          "date": "2025-11-04",
-          "contributionCount": 0,
-          "color": "#ebedf0"
-        },
-        {
-          "date": "2025-11-05",
-          "contributionCount": 0,
-          "color": "#ebedf0"
-        },
-        {
-          "date": "2025-11-06",
-          "contributionCount": 0,
-          "color": "#ebedf0"
-        },
-        {
-          "date": "2025-11-07",
-          "contributionCount": 0,
-          "color": "#ebedf0"
-        },
-        {
-          "date": "2025-11-08",
-          "contributionCount": 0,
-          "color": "#ebedf0"
-        }
-      ]
-    },
     {
       "contributionDays": [
         {
@@ -2073,6 +2034,15 @@
         },
         {
           "date": "2026-11-07",
+          "contributionCount": 0,
+          "color": "#ebedf0"
+        }
+      ]
+    },
+    {
+      "contributionDays": [
+        {
+          "date": "2026-11-08",
           "contributionCount": 0,
           "color": "#ebedf0"
         }
